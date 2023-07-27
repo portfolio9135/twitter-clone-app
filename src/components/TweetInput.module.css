@@ -1,0 +1,74 @@
+.tweet_form {
+  position: relative;
+  display: flex;
+  margin-bottom: 24px;
+  align-items: center;
+}
+
+.tweet_avatar {
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+.tweet_input {
+  margin-left: 16px;
+  width: 90%;
+  background-color: #e1e1e1;
+  padding: 15px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  color: #333333;
+  font-size: 18px;
+}
+
+.tweet_addIcon {
+  cursor: pointer;
+  color: white;
+}
+.tweet_addIconLoaded {
+  cursor: pointer;
+  color: dimgray;
+}
+
+.tweet_hiddenIcon {
+  display: none;
+}
+
+.tweet_sendBtn {
+  background-color: #00bfff !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  width: fit-content;
+  height: 40px !important;
+  cursor: none !important;
+  padding: 0 20px !important;
+  display: flex !important;
+  margin-left: auto !important;
+  cursor: pointer !important;
+}
+.tweet_sendBtn:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.tweet_sendDisableBtn {
+  background-color: gray !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  width: fit-content;
+  height: 40px !important;
+  cursor: none !important;
+  padding: 0 20px !important;
+  display: flex !important;
+  margin-left: auto !important;
+}
+
+.tweet_imgUpBtn {
+  padding: 0px 0px 0px 12px !important;
+}
